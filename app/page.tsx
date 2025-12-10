@@ -1,4 +1,4 @@
-import { BlogPosts } from 'app/components/posts'
+// import { BlogPosts } from 'app/components/posts'
 
 export default function Page() {
   return (
@@ -7,15 +7,16 @@ export default function Page() {
         My Portfolio
       </h1>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        {`I am a 19-year-old French developer and a recent graduate from a computer science school in Paris,
+        where I studied several areas of software development, including low-level programming with C. I
+        have been passionate about technology since I was 13, and over the years I have built various
+        personal projects in web development as well as iOS and Android mobile applications.
+        Although I do not have professional experience yet, my studies and personal projects have helped
+        me develop a solid technical foundation and a strong willingness to learn.`}
       </p>
-      <div className="my-8">
+      {/* <div className="my-8">
         <BlogPosts />
-      </div>
+      </div> */}
     </section>
   )
 }
